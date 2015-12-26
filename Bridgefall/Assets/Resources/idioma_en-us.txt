@@ -1,0 +1,32 @@
+titulo tela creditos			:::Credits
+titulo tela jogo rapido			:::Survival
+titulo tela Modo de jogo		:::Game Mode
+titulo tela mundos				:::Worlds
+titulo tela fases				:::Levels
+titulo tela ajuda				:::How to Play
+titulo tela vencer jogo normal	:::Victory
+titulo tela derrota jogo normal	:::Defeat
+titulo tela jogo pausa			:::Pause
+titulo tela pontuacao			:::Leaderboard
+subtitulo tela pontuacao		:::Local score
+botao jogo normal				:::Conquest
+botao jogo rapido				:::Survival
+descricao ajuda	1				:::Tap to shoot some basketball
+descricao ajuda	2				:::Hit all little guys with them
+descricao ajuda	3				:::They shall <color=#7b0101>not</color> pass the bridges
+descricao creditos 1 andré		:::Game concept and design, production, level design development and user interface design.
+descricao creditos 2 jé			:::Full game development and design, ingame and concept art, music and sound.
+descricao creditos 3 wilson		:::Game test, concept art and level design.
+descricao creditos 4 davi		:::Concept and ingame final art.
+descricao creditos 5 extras		:::Our special thanks for all friends who helped along the long development of the game: Raphael Costa fo the first game, Fabrini Andrade for the marketing, Vinícius Ilídio on the build help, Gabriel Nunes with marketing art and Jorge for the conquest name idea and the iPad. Also thanks for de #indiequilt JAM.
+mostrar pontos vencer/perder	:::Score: 0
+mostrar bônus ven/per			:::Bonus:			+0
+mostrar perfect ven/per			:::Perfect hits:		+0
+mostrar ônus ven/per			:::Penalty:			-0
+texto mundo						:::World
+texto fase						:::Level
+texto dificuldade				:::Difficulty
+texto pontos					:::Score
+texto modo normal				:::Conquest Mode
+texto modo jogo rapido			:::Survival Mode
+mensagem sem macas				:::Don't have apples.. try to make {0} points on {1} for one.

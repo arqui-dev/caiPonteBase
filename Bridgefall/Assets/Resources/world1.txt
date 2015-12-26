@@ -1,0 +1,140 @@
+world 1
+
+	level 1
+		dif = 0
+		
+		people = 3
+		waves = -1
+			
+			s = 4
+			s = 4
+			s = 4
+	end level 1
+		
+	level 2
+		dif = 0
+		
+		people = 4
+		waves = -1
+			
+			s = 4
+			s = 6
+			s = 5
+			s = 7
+	end level 2
+
+	level 3
+		dif = 1
+	
+		people = 5
+		waves = -1
+		
+			s = 1
+			s = -2
+			s = 3
+			s = -5
+			s = 7
+	end level 3
+		
+	level 4
+		dif = 1
+	
+		people = 6
+		waves = -2
+		
+			s = 3.5
+			s = 3
+			s = 4.5
+			s = 4
+			s = 5
+			s = 4.8
+	end level 4
+		
+	level 5
+		dif = 1
+		people = 8
+		waves = -2
+		
+			s = 4.5
+			s = 4
+			s = -5.5
+			s = -5
+			s = 7
+			s = 6
+			s = -6
+			s = -1.5
+	end level 5
+	
+	level 6
+		dif = 1
+		people = 12
+		waves = -3
+		
+			s = 3
+			s = 2.8
+			s = 2.5
+			s = 4
+			s = 3.9
+			s = 3.8
+			s = -6
+			s = -4
+			s = -2
+			s = 8
+			s = 5
+			s = 4
+	end level 6
+		
+	level 7
+		dif = 2
+		people = 4
+		waves = -1
+			
+			s = 4
+			s = 6
+			s = 5
+			s = 7
+		
+		b = p:3; 	s: 2;
+		b = p:5;	s: 3;
+	end level 7
+
+	level 8
+		dif = 2
+		people = 6
+		waves = -2
+	
+			s = 3.5
+			s = 3
+			s = 4.5
+			s = 4
+			s = 5
+			s = 4.8
+			
+		b = p: 3;	dvu: 0;	vd: 1
+		b = p: 4;	ddl: 0;
+		b = p: 5;	dvu: 2;	vd: 1
+	end level
+	
+	level 9
+		dif = 2
+		people = 12
+		waves = -3
+		
+			s = 3
+			s = 2.8
+			s = 2.5
+			s = 4
+			s = 3.9
+			s = 3.8
+			s = -6
+			s = -4
+			s = -2
+			s = 8
+			s = 5
+			s = 4
+			
+		b = p: 4;	dc: 1
+		b= p: 1;	hr:0;	hl:1
+	end level 9
+	
+end world

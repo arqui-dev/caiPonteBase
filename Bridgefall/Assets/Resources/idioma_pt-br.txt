@@ -1,0 +1,32 @@
+titulo tela creditos			:::Créditos
+titulo tela jogo rapido			:::Sobrevivência
+titulo tela Modo de jogo		:::Modo de Jogo
+titulo tela mundos				:::Mundos
+titulo tela fases				:::Fases
+titulo tela ajuda				:::Como Jogar
+titulo tela vencer jogo normal	:::Vitória
+titulo tela derrota jogo normal	:::Derrota
+titulo tela jogo pausa			:::Pausa
+titulo tela pontuacao			:::Placar
+subtitulo tela pontuacao		:::Pontuação Local
+botao jogo normal				:::Conquista
+botao jogo rapido				:::Sobrevivência
+descricao ajuda	1				:::Toque para atirar bolas de basquete
+descricao ajuda	2				:::Acerte todos os carinhas com elas
+descricao ajuda	3				:::Eles <color=#7b0101>não</color> poderão passar as pontes
+descricao creditos 1 andré		:::Conceito e game design, produção, level design e design de interface.
+descricao creditos 2 jé			:::Desenvolvimento completo do jogo, ingame e concept art, musica e som.
+descricao creditos 3 wilson		:::Testes do jogo, concept art e level design.
+descricao creditos 4 davi		:::Concept art e arte final.
+descricao creditos 5 extras		:::Nossos agradecimentos especiais a todos os amigos que nos ajudaram no longo caminho do desenvolvimento: Raphael Costa, em bridgefall's river, Fabrini Andrade, pelo marketing, Vinícius Ilídio, pelas build, Gabriel Nunes, pelo ajuda com o cartaz e ao Jorge pela nome Conquista e o iPad. Também agradecemos ao #indiequilt game JAM.
+mostrar pontos vencer/perder	:::Pontos: 0
+mostrar bônus ven/per			:::Bônus:			+0
+mostrar perfect ven/per			:::Mira 100%:		+0
+mostrar ônus ven/per			:::Penalidade:			-0
+texto mundo						:::Mundo
+texto fase						:::Fase
+texto dificuldade				:::Dificuldade
+texto pontos					:::Pontos
+texto modo normal				:::Modo Conquista
+texto modo jogo rapido			:::Modo Sobrevivência
+mensagem sem macas				:::Você não tem maçãs, faça {0} pontos no {1} por uma.

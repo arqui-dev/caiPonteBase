@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{EAB1762A-25ED-45E5-57C4-06581B91F735}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_0;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/CriarJogos/Unity/Unity5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/CriarJogos/Unity/Unity5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AjeitarSliderDificuldade.cs" />
+     <Compile Include="Assets\Scripts\ArvoreMaca.cs" />
+     <Compile Include="Assets\Scripts\BalaoExclamacao.cs" />
+     <Compile Include="Assets\Scripts\BrilharImagemUI.cs" />
+     <Compile Include="Assets\Scripts\CarregarFaseDeArquivo.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\ArquivosString.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\Dados.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\Enums.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\Estatisticas.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\Fase.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\Mundo.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\Onda.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\Passante.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\Rebatedor.cs" />
+     <Compile Include="Assets\Scripts\ClassesArmazem\Utilidade.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleBarco.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleBola.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleCanhao.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleFase.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleFasesLiberadas.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleJogo.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleMensagens.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleModosDeJogo.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleMundosLiberados.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleMusica.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleOndas.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControlePassante.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleRebatedor.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleTela.cs" />
+     <Compile Include="Assets\Scripts\Controladores\ControleVento.cs" />
+     <Compile Include="Assets\Scripts\Desvanecer.cs" />
+     <Compile Include="Assets\Scripts\EnfeiteCasa.cs" />
+     <Compile Include="Assets\Scripts\Inicializar.cs" />
+     <Compile Include="Assets\Scripts\MacaCaindo.cs" />
+     <Compile Include="Assets\Scripts\MostrarPontos.cs" />
+     <Compile Include="Assets\Scripts\MostrarPontosTelaDerrota.cs" />
+     <Compile Include="Assets\Scripts\MostrarPontuacao.cs" />
+     <Compile Include="Assets\Scripts\Navegacao.cs" />
+     <Compile Include="Assets\Scripts\PassanteCaindo.cs" />
+     <Compile Include="Assets\Scripts\PontosTelaVitoria.cs" />
+     <Compile Include="Assets\Scripts\PontosTextoFlutuante.cs" />
+     <Compile Include="Assets\Scripts\Rebatedores.cs" />
+     <Compile Include="Assets\Scripts\SomEMusica.cs" />
+     <Compile Include="Assets\Scripts\Splash.cs" />
+     <Compile Include="Assets\Scripts\TelaPausa.cs" />
+     <Compile Include="Assets\Scripts\TocarSomAteOFim.cs" />
+     <None Include="Assets\Resources\world5.txt" />
+     <None Include="Assets\Resources\world4.txt" />
+     <None Include="Assets\Resources\world3.txt" />
+     <None Include="Assets\Resources\world2.txt" />
+     <None Include="Assets\Resources\world1.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/CriarJogos/Unity/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/CriarJogos/Unity/Unity5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/CriarJogos/Unity/Unity5/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/CriarJogos/Unity/Unity5/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

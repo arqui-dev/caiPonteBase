@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 9fe0f24b6684a9c4191a0572270b6b22
+timeCreated: 1446808909
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: seta
+    21300002: mao
+    21300004: carabolada
+    21300006: carax
+    21300008: canhao
+    21300010: passante
+    21300012: varios
+    21300014: bola
+    21300016: joe
+    21300018: ponte
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: seta
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 552
+        width: 76
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mao
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 501
+        width: 87
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carabolada
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 496
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carax
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 342
+        width: 132
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: canhao
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 342
+        width: 138
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: passante
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 342
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: varios
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 154
+        width: 121
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bola
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 178
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joe
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 154
+        width: 167
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ponte
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 29
+        width: 458
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

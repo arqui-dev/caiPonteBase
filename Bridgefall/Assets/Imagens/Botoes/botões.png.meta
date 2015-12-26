@@ -1,0 +1,352 @@
+fileFormatVersion: 2
+guid: 4a689014c71fa0840bc9267e6aa64b82
+timeCreated: 1432319991
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pausa
+    21300002: seta_baixo
+    21300004: usuario
+    21300006: inicio
+    21300008: jogar
+    21300010: seta_cima
+    21300012: set2_dir
+    21300014: pontuacao
+    21300016: rejogar
+    21300018: som_sem
+    21300020: branco
+    21300022: set2_baixo
+    21300024: creditos
+    21300026: mus_sem
+    21300028: voltar
+    21300030: som_com
+    21300032: ajuda
+    21300034: set2_cima
+    21300036: fechar
+    21300038: mus_com
+    21300040: fases
+    21300042: trofeu
+    21300044: facebook
+    21300046: google+
+    21300048: twitter
+    21300050: config
+    21300052: paulera
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pausa
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 836
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: seta_baixo
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 836
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: usuario
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 838
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: inicio
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 652
+        width: 179
+        height: 181
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jogar
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 652
+        width: 179
+        height: 181
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: seta_cima
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 652
+        width: 179
+        height: 181
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: set2_dir
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 464
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pontuacao
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 464
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rejogar
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 464
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: som_sem
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 464
+        width: 180
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: branco
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 466
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 18, z: 26, w: 23}
+    - name: set2_baixo
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 280
+        width: 179
+        height: 181
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: creditos
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 280
+        width: 179
+        height: 181
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mus_sem
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 280
+        width: 184
+        height: 181
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: voltar
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 280
+        width: 180
+        height: 181
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: som_com
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 280
+        width: 179
+        height: 181
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ajuda
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 92
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: set2_cima
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 92
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fechar
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 92
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mus_com
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 92
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fases
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 92
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trofeu
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 92
+        width: 179
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: facebook
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 94
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: google+
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 94
+        width: 179
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: twitter
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 94
+        width: 179
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: config
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 94
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: paulera
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 94
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
