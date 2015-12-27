@@ -16,11 +16,15 @@ public class ControleIdioma : MonoBehaviour
 	{
 		_instancia = this;
 
+		/*
 		if (PlayerPrefs.HasKey(nomePrefsLingua))
 		{
 			AlterarLingua(PlayerPrefs.GetString(nomePrefsLingua));
 		}
-		CarregarIdioma(lingua);
+		//*/
+		//CarregarIdioma(SystemLanguage.Portuguese);
+		CarregarIdioma(SystemLanguage.Unknown);
+		//CarregarIdioma(SystemLanguage.English);
 
 		SalvarIdioma();
 	}
@@ -92,7 +96,13 @@ public class ControleIdioma : MonoBehaviour
 
 	public SystemLanguage PegarIdioma()
 	{
-		return Application.systemLanguage;
+		SystemLanguage lingua = Application.systemLanguage;
+
+		if (lingua != SystemLanguage.Portuguese)
+		{
+			return SystemLanguage.English;
+		}
+		return lingua;
 	}
 }
 
