@@ -9,6 +9,9 @@ public class Dados : MonoBehaviour
 	public static long macasVerdesUltimaTela = 0;
 	public static long macasDivisorPontos = 1000;
 
+	public static int macasPorVideo = 3;
+	public static int macasPorBanner = 1;
+
 	// Apenas para não dar pala no carregamento
 	public static string nomeVersaoSalvarAtual = "VersãoAtual";
 	public static int versaoSalvarAtual = 3;
@@ -158,7 +161,14 @@ public class Dados : MonoBehaviour
 		"Inicial",
 		"Jogo_Rapido_Vitoria",
 		"Jogo_Rapido_Derrota",
-		"Jogo_Sobrevivencia_Fim"
+		"Jogo_Sobrevivencia_Fim",
+		"Menu_Creditos",
+		"Menu_Ajuda",
+		"Menu_ModoJogo",
+		"Menu_Sobrevivencia",
+		"Menu_Mundos",
+		"Menu_Fases",
+		"Menu_Pontuacao"
 	};
 
 	// Tags

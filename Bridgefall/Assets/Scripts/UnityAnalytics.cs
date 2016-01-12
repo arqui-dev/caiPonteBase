@@ -67,7 +67,7 @@ public class UnityAnalytics : MonoBehaviour
 
 		Analytics.CustomEvent(egastouMaca, dicionario);
 		
-		Debug.Log ("Gastou maça enviado analytics");
+		//Debug.Log ("Gastou maça enviado analytics");
 	}
 
 	public static void GanhouMaca(bool ad, int macas = 1)
@@ -94,7 +94,7 @@ public class UnityAnalytics : MonoBehaviour
 		
 		Analytics.CustomEvent(eganhouMaca, dicionario);
 		
-		Debug.Log ("Ganhou maça enviado analytics");
+		//Debug.Log ("Ganhou maça enviado analytics");
 	}
 
 	public static void AbriuAd(bool viuTudo, bool adsRodando)
@@ -114,7 +114,7 @@ public class UnityAnalytics : MonoBehaviour
 
 		Analytics.CustomEvent(eVisualizarAds, dicionario);
 
-		Debug.Log ("Abriu ad enviado analytics");
+		//Debug.Log ("Abriu ad enviado analytics");
 	}
 
 	public static void AdicionarPontoTocado()
@@ -165,7 +165,7 @@ public class UnityAnalytics : MonoBehaviour
 		
 		Analytics.CustomEvent(epontosTocados, dicionario);
 
-		Debug.Log ("Ponto tocado enviado analytics");
+		//Debug.Log ("Ponto tocado enviado analytics");
 	}
 	
 	public static void EnviarPontosMaisTocados()
@@ -198,7 +198,7 @@ public class UnityAnalytics : MonoBehaviour
 				Debug.Log (e);
 			}
 		}
-		Debug.Log ("Mais tocados enviado analytics");
+		//Debug.Log ("Mais tocados enviado analytics");
 	}
 
 	public static void CompletouFase(
@@ -228,7 +228,7 @@ public class UnityAnalytics : MonoBehaviour
 
 		Analytics.CustomEvent(efaseCompleta, dicionario);
 
-		Debug.Log ("Completou fase enviado analytics");
+		//Debug.Log ("Completou fase enviado analytics");
 	}
 
 
@@ -251,7 +251,7 @@ public class UnityAnalytics : MonoBehaviour
 		
 		Analytics.CustomEvent(efasePerdeu, dicionario);
 
-		Debug.Log ("Perdeu fase enviado analytics");
+		//Debug.Log ("Perdeu fase enviado analytics");
 	}
 }
 

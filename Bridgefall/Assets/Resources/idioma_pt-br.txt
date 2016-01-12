@@ -30,3 +30,8 @@ texto pontos					:::Pontos
 texto modo normal				:::Modo Conquista
 texto modo jogo rapido			:::Modo Sobrevivência
 mensagem sem macas				:::Você não tem maçãs, faça {0} pontos no {1} por uma.
+descricao tela maçã titulo		:::Precisa de mais maçãs?
+descricao tela maçã descrição	:::Tente uma das opções abaixo!
+descricao tela maçã video		:::Ganhe uma cesta
+descricao tela maçã banner		:::Ganhe uma maçã
+descricao tela maçã sobrevi		:::Conseguir {0} pontos no modo sobrevivência

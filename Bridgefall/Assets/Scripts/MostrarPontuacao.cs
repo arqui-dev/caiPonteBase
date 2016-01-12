@@ -23,6 +23,14 @@ public class MostrarPontuacao : MonoBehaviour
 
 	public void Carregar()
 	{
+		if (textoDescricao == null ||
+		    textoPontos == null ||
+		    painelTexto == null ||
+		    barraLateral == null)
+		{
+			return;
+		}
+
 		campanha = ControleIdioma.PegarTexto(
 			Idiomas.Texto.TextoModoNormal);
 		mundo = ControleIdioma.PegarTexto(

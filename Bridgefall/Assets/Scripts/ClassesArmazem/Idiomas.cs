@@ -16,7 +16,10 @@ public class Idiomas
 		MostrarPontos, MostrarBonus, MostrarPerfect, MostrarOnus,
 		TextoMundo, TextoFase, TextoDificuldade, TextoPontos,
 		TextoModoNormal, TextoModoJogoRapido,
-		MensagemSemMacas
+		MensagemSemMacas, 
+		DescricaoTelaSemMacaTitulo, DescricaoTelaSemMacaDescricao,
+		DescricaoTelaSemMacaVideo, DescricaoTelaSemMacaBanner,
+		DescricaoTelaSemMacaSobrevivencia
 	}
 
 	SystemLanguage idioma = SystemLanguage.English;
@@ -40,6 +43,7 @@ public class Idiomas
 		if (texto != null)
 		{
 			entrada = texto.text;
+			Debug.Log ("Entrada\n"+entrada);
 		}
 
 		string [] divisores = {"\n","\r\n","\n\r"};
@@ -89,7 +93,8 @@ public class Idiomas
 	{
 		switch(idioma)
 		{
-		case SystemLanguage.Portuguese: return "pt-br";
+		case SystemLanguage.Portuguese:
+			return "pt-br";
 		}
 		return "en-us";
 	}
@@ -98,7 +103,9 @@ public class Idiomas
 		SystemLanguage novoIdioma = SystemLanguage.Unknown)
 	{
 		AtualizarIdioma(novoIdioma);
-		
+
+		Debug.Log ("String idioma: "+StringIdioma());
+
 		return arquivoIdioma + StringIdioma();
 	}
 	string arquivoIdioma = "idioma_";

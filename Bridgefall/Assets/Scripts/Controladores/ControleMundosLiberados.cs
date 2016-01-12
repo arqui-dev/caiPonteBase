@@ -30,6 +30,12 @@ public class ControleMundosLiberados : MonoBehaviour
 
 	void Carregar()
 	{
+		for (int i = 0; i < mundos.Length; i++)
+		{
+			if (mundos[i] == null)
+				return;
+		}
+
 		//*
 		if (Dados.estatisticas.mundos.Count <= Dados.mundoAtual){
 			return;

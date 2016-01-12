@@ -31,6 +31,15 @@ public class ControleFasesLiberadas : MonoBehaviour
 
 	void Carregar()
 	{
+		if (mundoAtual == null) 
+			return;
+
+		for (int i =0; i < fases.Length; i++)
+		{
+			if (fases[i] == null)
+				return;
+		}
+
 		if (Dados.estatisticas.mundos.Count <= Dados.mundoAtual){
 			return;
 		}

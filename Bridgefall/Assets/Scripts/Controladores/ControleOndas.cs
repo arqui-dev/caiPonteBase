@@ -654,7 +654,8 @@ public class ControleOndas : MonoBehaviour
 
 			if (Dados.pontosUltimaFase > 0)
 			{
-				Debug.Log("Pontuar plataforma social");
+				//GooglePlay.Pontuar(
+				//	LeaderBoards.ModoNormal, Dados.pontosUltimaFase);
 			}
 
 			if (Dados.estatisticas.mundos[Dados.mundoAtual]
@@ -693,7 +694,12 @@ public class ControleOndas : MonoBehaviour
 			//GerenciadorUnityAds.ShowRewardedAd();
 			if (Dados.pontosUltimaFase > 0)
 			{
-				Debug.Log("Pontuar plataforma social");
+				/*
+				GooglePlay.Pontuar(
+					(LeaderBoards) 
+					(Dados.jogoRapidoDificuldade - 1), 
+					Dados.pontosUltimaFase);
+				*/	
 			}
 
 			Utilidade.AdicionarMacasPorPontos(Dados.pontosUltimaFase);

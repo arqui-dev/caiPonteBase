@@ -12,6 +12,8 @@ public class TelaPausa : MonoBehaviour
 	public Navegacao navegador;
 	public Text textoMundoFase;
 
+	public GameObject telaFaltouMaca;
+
 	string textoCampanha		= Dados.textosTelaPausa[0];
 	string textoMundo			= Dados.textosTelaPausa[1];
 	string textoFase			= Dados.textosTelaPausa[2];
@@ -112,9 +114,13 @@ public class TelaPausa : MonoBehaviour
 
 	void MensagemMacaNaoTem()
 	{
+		/*
 		Debug.Log ("Nao tem maças o suficiente. Colocar som");
 		ControleMensagens.AdicionarMensagem(
 			Utilidade.MensagemSemMacas(), 0);
+		//*/
+
+		Instantiate<GameObject>(telaFaltouMaca);
 	}
 
 	public void CarregarTelaMenu()

@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{833BE13E-9176-D95D-41E7-B1A55CA49871}</ProjectGuid>
+	<ProjectGuid>{372BCF75-28B5-104D-D8B7-10FCEDC0341E}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -78,6 +78,7 @@
      <None Include="Assets\Resources\world2.txt" />
      <None Include="Assets\Resources\world1.txt" />
      <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -97,7 +98,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="JarResolverLib">
- <HintPath>C:/Users/jefbt/Documents/Criar Jogos/Unity - Projetos/Bridgefall/Base/Bridgefall/Assets/GooglePlayGames/Editor/JarResolverLib.dll</HintPath>
+ <HintPath>C:/Users/jefbt/Documents/Criar Jogos/Unity - Projetos/Bridgefall/Base/Bridgefall_Base/Assets/GooglePlayGames/Editor/JarResolverLib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -140,8 +141,10 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{6ACC9FF9-95BE-FD21-73A3-0D8056A242EC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{EAB1762A-25ED-45E5-57C4-06581B91F735}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{4EECFCDC-844E-ABF7-F7E2-ED1B8E226E93}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

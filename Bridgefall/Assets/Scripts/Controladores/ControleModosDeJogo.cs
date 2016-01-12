@@ -29,11 +29,13 @@ public class ControleModosDeJogo : MonoBehaviour
 
 	void Carregar()
 	{
-		jogoRapido.interactable = 
-			Dados.estatisticas.jogoRapido.liberado;
+		if (jogoRapido != null)
+			jogoRapido.interactable = 
+				Dados.estatisticas.jogoRapido.liberado;
 
-		sobrevivencia.interactable = 
-			Dados.estatisticas.sobrevivencia.liberado;
+		if (sobrevivencia != null)
+			sobrevivencia.interactable = 
+				Dados.estatisticas.sobrevivencia.liberado;
 
 		recarregar = false;
 	}

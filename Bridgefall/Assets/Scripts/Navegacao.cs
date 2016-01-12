@@ -6,25 +6,36 @@ public class Navegacao : MonoBehaviour
 	// Variáveis Públicas
 	public GameObject som = null;
 	public GameObject somPagina = null;
+	public GameObject telaFaltouMaca;
 
 	// Variáveis estáticas
 	public static Telas telaAtual = Telas.Inicial;
+	public static Telas telaAnterior = Telas.Inicial;
 
 	// Métodos estáticos
 	public static void CarregarTelaEstatico(Telas tela)
 	{
+		telaAnterior = telaAtual;
 		telaAtual = tela;
 		Debug.Log("AQUI estatico "+tela);
 		Application.LoadLevel(Dados.nomeTelas[(int) tela]);
 		UnityAnalytics.EnviarPontosMaisTocados();
 	}
 
+	public static void VoltarUmaTela()
+	{
+		CarregarTelaEstatico(telaAnterior);
+	}
+
 	// Métodos públicos
 	public void MostrarAdMaca(GameObject botao)
 	{
-		GerenciadorUnityAds.ShowRewardedAd();
-		if (botao != null)
+		//GerenciadorUnityAds.ShowRewardedAd();
+		MensagemMacaNaoTem();
+		/*
+		if (botao != null && Dados.macasVerdeTotal > 0)
 			botao.SetActive(false);
+		//*/
 	}
 
 	public void CarregarTela(Telas tela, bool tocarSom = true)
@@ -118,7 +129,7 @@ public class Navegacao : MonoBehaviour
 		CarregarTela(Telas.Jogo, false);
 	}
 
-	public void CarregarMesmaFase()
+	public void CarregarMesmaFase(bool derrota = false)
 	{
 		if (Dados.modoDeJogo == ModosDeJogo.Normal)
 		{
@@ -136,6 +147,27 @@ public class Navegacao : MonoBehaviour
 				}
 			}
 		}
+
+		/*
+		if (derrota)
+		{
+			if (Random.value < 0.5f)
+			{
+				GerenciadorUnityAds.ShowRewardedAd();
+				Debug.Log ("Mostrou video unity ads");
+			}
+			else
+			{
+				GerenciadorAdBuddiz.ShowVideo();
+				Debug.Log ("Mostrou video adbuddiz");
+			}
+		}
+		else
+		{
+			GerenciadorUnityAds.AdicionarMacas(1);
+			GerenciadorAdBuddiz.ShowBanner();
+		}
+		//*/
 
 		//Dados.modoDeJogo = ModosDeJogo.Normal;
 		CarregarTela(Telas.Jogo);
@@ -161,9 +193,13 @@ public class Navegacao : MonoBehaviour
 
 	void MensagemMacaNaoTem()
 	{
+		/*
 		Debug.Log ("Nao tem maças o suficiente. Colocar som");
 		ControleMensagens.AdicionarMensagem(
 			Utilidade.MensagemSemMacas(), 0);
+		//*/
+
+		Instantiate<GameObject>(telaFaltouMaca);
 	}
 
 	public void CarregarProximaFase()

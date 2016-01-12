@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{EAB1762A-25ED-45E5-57C4-06581B91F735}</ProjectGuid>
+	<ProjectGuid>{4EECFCDC-844E-ABF7-F7E2-ED1B8E226E93}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -83,7 +83,6 @@
      <Compile Include="Assets\Scripts\DestruirAoAcabarTransicaoAnimacao.cs" />
      <Compile Include="Assets\Scripts\Desvanecer.cs" />
      <Compile Include="Assets\Scripts\EnfeiteCasa.cs" />
-     <Compile Include="Assets\Scripts\GerenciadorUnityAds.cs" />
      <Compile Include="Assets\Scripts\Inicializar.cs" />
      <Compile Include="Assets\Scripts\MacaCaindo.cs" />
      <Compile Include="Assets\Scripts\MacaMostrarGeral.cs" />
@@ -104,9 +103,10 @@
      <Compile Include="Assets\Scripts\TelaPausa.cs" />
      <Compile Include="Assets\Scripts\TocarSomAteOFim.cs" />
      <Compile Include="Assets\Scripts\UI\BotaoTrocarIdioma.cs" />
+     <Compile Include="Assets\Scripts\UI\TelaFaltouMaca.cs" />
      <Compile Include="Assets\Scripts\UI\TelaSelecionarFasesMostrarExtras.cs" />
+     <Compile Include="Assets\Scripts\UI\TelaSemMacaDescricaoSobrevivencia.cs" />
      <Compile Include="Assets\Scripts\UnityAnalytics.cs" />
-     <None Include="Assets\Plugins\Android\MainLibProj\AndroidManifest.xml" />
      <None Include="Assets\Resources\idioma_pt-br.txt" />
      <None Include="Assets\Resources\world3.txt" />
      <None Include="Assets\Resources\idioma_en-us.txt" />
